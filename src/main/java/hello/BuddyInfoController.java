@@ -11,13 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BuddyInfoController {
 
+    /*
     @RequestMapping("/")
     public @ResponseBody String greet(){
         return "Hello World";
-    }
+    }*/
 
-    @RequestMapping("/buddyInfo")
-    public BuddyInfo buddyInfo(@RequestParam(value="name") String name,
+    @RequestMapping("/")
+    public @ResponseBody BuddyInfo buddyInfo(@RequestParam(value="name") String name,
                                @RequestParam(value="address") String address,
                                @RequestParam(value ="phone") String phone,
                                Model model) {
