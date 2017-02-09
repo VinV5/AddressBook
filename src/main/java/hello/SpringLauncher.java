@@ -9,7 +9,7 @@ import java.awt.*;
 
 public class SpringLauncher {
     public static void main(String[] args) {
-        ApplicationContext AC = new ClassPathXmlApplicationContext("app-config.xml");
+        ApplicationContext AC = new ClassPathXmlApplicationContext("");
         MyJFrame frame = AC.getBean(MyJFrame.class);
         frame.init();
 

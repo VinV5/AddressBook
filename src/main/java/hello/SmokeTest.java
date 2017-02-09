@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class SmokeTest {
 
     @Autowired
-    private BuddyInfoController controller;
+    private GreetingController controller;
 
     @Test
     public void contextLoads() throws Exception {

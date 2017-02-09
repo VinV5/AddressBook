@@ -13,7 +13,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
  * Created by vincentvu on 2/9/2017.
@@ -25,11 +24,6 @@ public class ApplicationTest {
 
     @Autowired
     private MockMvc mockMvc;
-
-    @Test
-    public void contextLoads() throws Exception {
-
-    }
 
     @Test
     public void shouldReturnDefaultMessage() throws Exception {

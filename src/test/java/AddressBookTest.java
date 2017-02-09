@@ -1,4 +1,4 @@
-package hello;
+/*
 import junit.framework.Assert;
 import org.junit.Test;
 
@@ -7,9 +7,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by vincentvu on 1/12/2017.
- */
+
 public class AddressBookTest {
     public BuddyInfo b;
     public void setUp(){
@@ -93,4 +91,4 @@ public class AddressBookTest {
         emf.close();
     }
 
-}
+}*/
